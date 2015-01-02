@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Get index.php
-wget 'https://gist.githubusercontent.com/rhukster/0457961221a14d0ee2c0/raw/4d0b9ab7164ae88547eeafa4607dbf025666ef22' -q -O /var/www/grav/index.html
+wget 'https://gist.githubusercontent.com/rhukster/0457961221a14d0ee2c0/raw/6f925c18f7831de3cc0bbce6c129114dcd94e030/Vagrant%20Landing%20Page' -q -O /var/www/grav/index.html
 echo 'Created /var/www/grav/index.html'; chown 501:dialout /var/www/grav/index.html
 
 # PHPInfo()
